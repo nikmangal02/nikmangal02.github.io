@@ -1,0 +1,194 @@
+body
+{
+    overflow-x: hidden;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+h1 h2 h3
+{
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #101015;
+}
+p{
+    font-family: "lato","sans-serif";
+}
+/*main-container*/
+.main-container
+{
+    max-width: 100%;
+}
+
+/*navbar*/
+.navbar-custom
+{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: transparent;
+   /* background:0 0;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;*/
+}
+.navbar-text-color
+{
+    color: #ffffff;
+}
+/*intro body*/
+.intro-body
+{
+    horizontal-align: middle;
+    color: #ffffff;
+    /*text-transform: uppercase;*/
+    padding-top: 170px;
+}
+.direction-sign
+{
+    padding-top: 150px;
+}
+.hand-link
+{
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 40px;
+    color: #ffffff;
+    background: 0 0;
+}
+/*.jodh-color
+{
+    background-color: #694948;
+}
+.put-color
+{
+    background-color: blueviolet;
+}*/
+
+.glyphicon
+{
+    font-size: 300%;
+    color: #ffffff;
+    top:20px;
+}
+.content-section
+{
+    background-color: #ffffff;
+    width: 100%;
+    height: 510px;
+}
+.header-about h2
+{
+    text-transform: uppercase;
+   padding-top: 100px;
+}
+.work
+{
+    padding-top: 90px;
+    max-width: 100%;
+    height: auto;
+}
+.content-box
+{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+}
+.content-inside-box
+{
+    padding-top: 20px;
+}
+.title-work
+{
+    text-transform: uppercase;
+}
+.btn{
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #694948;
+}
+.work-padd
+{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    /*background-color: aliceblue;*/
+}
+.padd-b
+{
+    padding-bottom: 50px;
+}
+.work-img-dimen
+{
+    width: 300px;
+    height: 280px;
+}
+.hr-property
+{
+    width: 20px;
+    color: red;
+}
+.work-title
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.intro-text
+{
+    font-size: large;
+}
+.work_portfolio
+{
+    width: 100%;
+    height: auto;
+    /*background-color: antiquewhite;*/
+}
+/*.jodhpur-rajasthan-work
+{
+    !*background-color: blueviolet;*!
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}*/
+.btn-default
+{
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: transparent;
+}
+.hire-padd-top
+{
+    padding-top: 20px;
+}
+.mail-color:hover
+{
+    color: blue;
+}
+.footer-bg
+{
+    color: white;
+    width: 100%;
+    background-color: #694948;
+}
+.btn-more-info
+{
+    border: 2px solid #000000;
+    /*color: #FFFFFF;*/
+    background-color: transparent;
+}
+.btn-more-info:hover
+{
+    background-color: #000000;
+    color:white;
+}
+.btn-lg
+{
+    margin: auto 0 auto 0;
+}
+.view-btn
+{
+    width: 100%;
+}
+.work-img
+{
+    width: 100%;
+}
+
