@@ -23,8 +23,6 @@ p{
     text-transform: uppercase;
     background-color: transparent;
     border: transparent;
-   /* background:0 0;
-    transition: background .5s ease-in-out, padding .5s ease-in-out;*/
 }
 .navbar-text-color
 {
@@ -52,14 +50,6 @@ p{
     color: #ffffff;
     background: 0 0;
 }
-/*.jodh-color
-{
-    background-color: #694948;
-}
-.put-color
-{
-    background-color: blueviolet;
-}*/
 
 .glyphicon
 {
@@ -139,15 +129,7 @@ p{
 {
     width: 100%;
     height: auto;
-    /*background-color: antiquewhite;*/
 }
-/*.jodhpur-rajasthan-work
-{
-    !*background-color: blueviolet;*!
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 80px;
-}*/
 .btn-default
 {
     border: 1px solid #000000;
