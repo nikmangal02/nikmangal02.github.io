@@ -1,7 +1,7 @@
 body
 {
     overflow-x: hidden;
-    font-family: "Times New Roman", Georgia, Serif;
+    font-family: "Roboto", Georgia, Serif;
 }
 h1 h2 h3
 {
@@ -10,6 +10,7 @@ h1 h2 h3
 }
 p{
     font-family: "lato","sans-serif";
+    font-size: 1.15em;
 }
 /*main-container*/
 .main-container
@@ -40,6 +41,11 @@ p{
 {
     padding-top: 150px;
 }
+.brand-heading
+{
+font-size: 4em;
+    text-shadow: 2px 2px #000000;
+}
 .hand-link
 {
     width: 70px;
@@ -62,6 +68,10 @@ p{
     background-color: #ffffff;
     width: 100%;
     height: 510px;
+}
+.padd-top
+{
+    padding-top: 50px;
 }
 .header-about h2
 {
@@ -108,7 +118,7 @@ p{
 }
 .work-img-dimen
 {
-    width: 300px;
+    width: 380px;
     height: 280px;
 }
 .hr-property
@@ -118,12 +128,12 @@ p{
 }
 .work-title
 {
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 20px;
 }
 .intro-text
 {
-    font-size: large;
+    font-size: x-large;
 }
 .work_portfolio
 {
@@ -138,7 +148,7 @@ p{
 }
 .hire-padd-top
 {
-    padding-top: 20px;
+    padding-top: 0;
 }
 .mail-color:hover
 {
@@ -148,7 +158,8 @@ p{
 {
     color: white;
     width: 100%;
-    background-color: #694948;
+    /*background-color: #694948;*/
+    background-color: #000000;
 }
 .btn-more-info
 {
@@ -168,6 +179,14 @@ p{
 .view-btn
 {
     width: 100%;
+}
+.hire-padd-top i:hover
+{
+    /*background-color: #000000;*/
+    /*border: none;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid*/
 }
 .work-img
 {
