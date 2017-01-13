@@ -18,7 +18,7 @@ p{
     max-width: 100%;
 }
 
-/*navbar*/
+/*navbar CSS*/
 .navbar-custom
 {
     text-transform: uppercase;
@@ -29,13 +29,17 @@ p{
 {
     color: #ffffff;
 }
-/*intro body*/
+
+/*intro body CSS*/
 .intro-body
 {
     horizontal-align: middle;
     color: #ffffff;
-    /*text-transform: uppercase;*/
     padding-top: 170px;
+}
+.intro-text
+{
+    font-size: x-large;
 }
 .direction-sign
 {
@@ -43,7 +47,7 @@ p{
 }
 .brand-heading
 {
-font-size: 4em;
+    font-size: 4em;
     text-shadow: 2px 2px #000000;
 }
 .hand-link
@@ -57,114 +61,47 @@ font-size: 4em;
     background: 0 0;
 }
 
-.glyphicon
-{
-    font-size: 300%;
-    color: #ffffff;
-    top:20px;
-}
+/*about me CSS*/
 .content-section
 {
     background-color: #ffffff;
     width: 100%;
     height: 510px;
 }
-.padd-top
-{
-    padding-top: 50px;
-}
-.header-about h2
-{
-    text-transform: uppercase;
-   padding-top: 100px;
-}
-.work
-{
-    padding-top: 90px;
-    max-width: 100%;
-    height: auto;
-}
-.content-box
-{
-    border: 2px solid black;
-    width: 400px;
-    height: 400px;
-}
-.content-inside-box
-{
-    padding-top: 20px;
-}
-.title-work
-{
-    text-transform: uppercase;
-}
-.btn{
-    border-radius: 0;
-    text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    color: #694948;
-}
-.work-padd
-{
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 80px;
-    /*background-color: aliceblue;*/
-}
 .padd-b
 {
     padding-bottom: 50px;
 }
-.work-img-dimen
+.header-about h2
 {
-    width: 380px;
-    height: 280px;
+    text-transform: uppercase;
+    padding-top: 100px;
 }
 .hr-property
 {
     width: 20px;
     color: red;
 }
-.work-title
+/*work section CSS*/
+.work
 {
-    padding-top: 60px;
-    padding-bottom: 20px;
-}
-.intro-text
-{
-    font-size: x-large;
-}
-.work_portfolio
-{
-    width: 100%;
+    padding-top: 90px;
+    max-width: 100%;
     height: auto;
 }
-.btn-default
+.title-work
 {
-    border: 1px solid #000000;
-    color: #000000;
-    background-color: transparent;
+    text-transform: uppercase;
 }
-.hire-padd-top
+.work-padd
 {
-    padding-top: 0;
-}
-.mail-color:hover
-{
-    color: blue;
-}
-.footer-bg
-{
-    color: white;
     width: 100%;
-    /*background-color: #694948;*/
-    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 .btn-more-info
 {
     border: 2px solid #000000;
-    /*color: #FFFFFF;*/
     background-color: transparent;
 }
 .btn-more-info:hover
@@ -176,20 +113,52 @@ font-size: 4em;
 {
     margin: auto 0 auto 0;
 }
-.view-btn
+.work-img-dimen
 {
-    width: 100%;
+    width: 380px;
+    height: 280px;
 }
-.hire-padd-top i:hover
+.work-title
 {
-    /*background-color: #000000;*/
-    /*border: none;
-    padding: 20px;
-    border-radius: 50%;
-    border: 1px solid*/
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.padd-top
+{
+    padding-top: 50px;
 }
 .work-img
 {
     width: 100%;
 }
+.work_portfolio
+{
+    width: 100%;
+    height: auto;
+}
+.view-btn
+{
+    width: 100%;
+}
+/**************************************/
+/*footer section CSS*/
+.hire-padd-top
+{
+    padding-top: 20px;
+}
+.hire-title
+{
+    text-shadow: 3px 2px blue;
+}
+.mail-color:hover
+{
+    color: blue;
+}
+.footer-bg
+{
+    color: white;
+    width: 100%;
+    background-color: #000000;
+}
+
 
