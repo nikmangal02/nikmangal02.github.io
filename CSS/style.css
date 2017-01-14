@@ -89,6 +89,10 @@ p{
     max-width: 100%;
     height: auto;
 }
+.work-padd-right
+{
+    padding-right: 100px;
+}
 .title-work
 {
     text-transform: uppercase;
@@ -148,7 +152,7 @@ p{
 }
 .hire-title
 {
-    text-shadow: 3px 2px blue;
+    /*text-shadow: 3px 2px white;*/
 }
 .mail-color:hover
 {
@@ -160,5 +164,7 @@ p{
     width: 100%;
     background-color: #000000;
 }
-
-
+.hire-padd-bott
+{
+    padding-bottom: 25px;
+}
